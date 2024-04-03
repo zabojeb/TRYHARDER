@@ -43,6 +43,7 @@ So I would welcome any contributions to the development!
 This list is created to identify the most important vectors of game development and the most important issues.
 
 - **Improve code quality**
+- **Add mobile controls and support**
 - **Add a PvP mode**
 - **Optimize code**
 - Any idea you have!
