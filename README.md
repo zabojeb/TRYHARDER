@@ -15,6 +15,9 @@ But be careful, the walls can be treacherous!
 > [!WARNING]
 > There are a lot of flashes and shimmering elements in the game!
 
+### I just want to play!
+You can play the game [here](https://zabojeb.github.io/TRYHARDER/).
+
 ## Controls
 The controls are simple and intuitive:
 
