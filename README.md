@@ -5,7 +5,7 @@
 [Русский](README.ru.md) | English
 
 # TRY HARDER
-TRY HARDER is a web arcade game, written in **p5.js** with crazy visual effects and procedural generation, in which you just have to move the square.
+**TRY HARDER** is a web arcade game, written in **p5.js** with crazy visual effects and procedural generation, in which you just have to move the square.
 
 Move the square fast, clever and strategic.
 
@@ -16,7 +16,9 @@ But be careful, the walls can be treacherous!
 > There are a lot of flashes and shimmering elements in the game!
 
 ### I just want to play!
-You can play the game [here](https://zabojeb.github.io/TRYHARDER/).
+Game is available on **itch.io**: **[TRY HARDER](https://zabojeb.itch.io/try-harder)**
+
+Also, you can play the game on [GitHub Pages](https://zabojeb.github.io/TRYHARDER/)
 
 ## Controls
 The controls are simple and intuitive:
