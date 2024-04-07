@@ -16,7 +16,7 @@ But be careful, the walls can be treacherous!
 > There are a lot of flashes and shimmering elements in the game!
 
 ### I just want to play!
-Game is available on **itch.io**: **[TRY HARDER](https://zabojeb.itch.io/try-harder)**
+Game is available on **itch.io**: **[TRY HARDER](https://zabojeb.itch.io/tryharder)**
 
 Also, you can play the game on [GitHub Pages](https://zabojeb.github.io/TRYHARDER/)
 
