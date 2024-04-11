@@ -37,6 +37,7 @@ let losed = false;
 let won = false;
 
 let firstTimePlay = true;
+let showInstructions = false;
 let countWins = 0;
 
 let walls = [];
@@ -99,7 +100,11 @@ function setup() {
 
 function draw() {
   if (firstTimePlay) {
-    drawMenu()
+    drawMenu();
+  }
+
+  else if (showInstructions) {
+    drawInstructions();
   }
 
   else if (losed) {
@@ -315,6 +320,11 @@ function isWallMany(x, y, r) {
 
 // Controls
 function keyPressed() {
+  if (keyCode === 73) { // the 'i' key
+    showInstructions = !showInstructions;
+    firstTimePlay = false;
+    restartGame();
+  }
   // Таймер запускается при нажатии любой кнопки
   if (timerStopped & !losed & !won) {
     timerStopped = false;
@@ -604,6 +614,40 @@ function drawMenu() {
     (width / 2) * random(0.9975, 1 / 0.9975),
     (height / 2.2) * random(0.9975, 1 / 0.9975)
   );
+
+  textSize(20);
+  textFont(regularFont);
+  text(
+    "click 'i' for instructions",
+    120, (height - 20)
+  );
+}
+
+//instructions page
+function drawInstructions() {
+
+  background(255);
+  fill(0);
+  noStroke();
+  textSize(30);
+  textAlign(CENTER);
+  textFont(regularFont); // Or your preferred font
+
+  text("Instructions:", width / 2, height / 4);
+
+  // List your instructions here
+  textFont(mediumFont);
+  textSize(40);
+  fill(255,0,0);
+  text("Reach the exit square without hitting the walls!", width / 2, (height / 2) - 70);
+  textFont(regularFont);
+  fill(0);
+  text("Use the arrow keys to steer", width / 2, (height / 2));
+  text("Once per game, press shift to run through a wall", width / 2, (height / 2) + 70);
+  textSize(30);
+  text("click 'i' again to start",
+  width /2,
+  height * (3/4));
 }
 
 // COOKIES
