@@ -50,6 +50,11 @@ TRY HARDER - браузерная аркадная игра, написанна�
 
 Прошу, не стесняйтесь отправлять issue с просьбами, рекомендациями и найденными ошибками!
 
+## Соавторы
+<a href="https://github.com/zabojeb/tryharder/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zabojeb/tryharder" />
+</a>
+
 ---
 
-Made with ❤️️ by zabojeb
+Made with ❤️️ by zabojeb and community
