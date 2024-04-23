@@ -52,6 +52,12 @@ This list is created to identify the most important vectors of game development 
 
 Please feel free to send issues with requests, recommendations and bugs!
 
+## Contributors
+
+<a href="https://github.com/zabojeb/tryharder/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=zabojeb/tryharder" />
+</a>
+
 ---
 
-Made with ❤️️ by zabojeb
+Made with ❤️️ by zabojeb and community
